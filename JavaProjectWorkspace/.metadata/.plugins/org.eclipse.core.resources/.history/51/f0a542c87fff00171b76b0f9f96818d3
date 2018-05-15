@@ -1,0 +1,18 @@
+package CinemaChain;
+
+import java.util.regex.Pattern;
+import java.util.regex.Matcher;
+
+public class MovieDAO {
+
+	public static boolean isEmail(String email) {
+		if (email == null) {
+			return false;
+		}
+		boolean b = Pattern.matches("^[A-Za-z]+@[A-Za-z]+(.[A-Za-z]+){1,2}$";
+
+√‚√≥: http://pupustory.tistory.com/132 [pupustory@], email);
+		return b;
+	}
+
+}

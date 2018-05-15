@@ -1,0 +1,21 @@
+package CinemaChain;
+
+import java.util.regex.Pattern;
+
+public class MovieDAO {
+
+	// public static boolean isEmail(String email) {
+	// System.out.println(email);
+	// if (email == null) {
+	// return false;
+	// }
+	// boolean mailChk = Pattern.matches("\\w+@\\w+\\.w+", email);
+	// return mailChk;
+	// }
+	public boolean emailCheck(String email) throws Exception {
+		String EMAIL_REGEX = "^[_a-z0-9-]+(.[_a-z0-9-]+)*@(?:\\w+\\.)+\\w+$";
+		Boolean b = email.matches(EMAIL_REGEX);
+		return b;
+	}
+
+}

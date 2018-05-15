@@ -1,0 +1,17 @@
+package CinemaChain;
+
+import java.util.regex.Pattern;
+import java.util.regex.Matcher;
+
+public class MovieDAO {
+
+	public static boolean isEmail(String email) {
+		System.out.println(email);
+		if (email == null) {
+			return false;
+		}
+		boolean b = Pattern.matches("^[a-zA-Z0-9]+@[a-zA-Z0-9]+$", email);
+		return b;
+	}
+
+}

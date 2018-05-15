@@ -1,0 +1,11 @@
+package CinemaChain;
+
+public class MovieDAO {
+
+	public static boolean isEmail (String email) { 
+        if (email == null) false를 반환합니다. 
+        boolean b = Pattern.matches ( "[\\ w \\ \\ - \\.] + @ [\\ w \\ ~ \\ -] + (\\. [\\ w \\ ~ \\ - ] +) + ", email.trim ()); 
+        반품 b; 
+    }
+
+}

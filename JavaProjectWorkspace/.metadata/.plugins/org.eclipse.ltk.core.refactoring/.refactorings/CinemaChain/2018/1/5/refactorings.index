@@ -1,0 +1,15 @@
+1517126907525	Rename local variable 'priceLb'
+1517127225560	Rename local variable 'seatLb'
+1517127239697	Rename local variable 'vatLB'
+1517127920274	Delete element
+1517127924749	Rename resource 'tickteting.png'
+1517127980515	Delete element
+1517127990626	Rename resource 'tickteting.png'
+1517128048121	Delete element
+1517131042578	Extract method 'mouseAction'
+1517131107162	Rename method 'mouseAction'
+1517131335058	Extract method 'timeMouseAction'
+1517134928888	Delete element
+1517138578670	Extract method 'seatIndex'
+1517141572456	Delete element
+1517142194045	Delete element

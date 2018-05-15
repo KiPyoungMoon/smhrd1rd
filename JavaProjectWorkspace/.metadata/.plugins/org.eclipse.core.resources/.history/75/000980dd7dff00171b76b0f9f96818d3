@@ -1,0 +1,38 @@
+package CinemaChain;
+
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+
+		boolean endChk = true;
+
+		while (endChk) {
+			System.out.println("[1]회원가입 [2]로그인 [3]영화정보 [4]종료");
+			int select = sc.nextInt();
+			sc.nextLine();
+			switch (select) {
+			case 1:
+				System.out.println("이메일을 입력하세요.");
+				String eMail = sc.nextLine();
+				MovieDAO.chkEmail(eMail);
+				break;
+			case 2:
+
+				break;
+			case 3:
+
+				break;
+			case 4:
+				endChk = false;
+				break;
+
+			default:
+				System.out.println("다시 입력하세요.");
+				break;
+			}
+		}
+
+	}
+}
